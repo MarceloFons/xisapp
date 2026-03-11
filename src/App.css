@@ -1,0 +1,40 @@
+/* App-specific styles */
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Full width sections */
+section {
+  width: 100%;
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Table responsive */
+@media (max-width: 640px) {
+  .pricing-table {
+    font-size: 0.875rem;
+  }
+  
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+/* Hero card responsive */
+@media (max-width: 768px) {
+  .hero-card h2 {
+    font-size: 1.75rem;
+  }
+  
+  .hero-card p {
+    font-size: 0.875rem;
+  }
+}
