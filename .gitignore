@@ -1,0 +1,12 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+*.local
+
+# Editores e SO
+.vscode/
+.idea/
+.DS_Store
